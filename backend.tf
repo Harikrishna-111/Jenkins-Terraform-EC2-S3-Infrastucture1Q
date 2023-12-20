@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "pavanssonixbucket1"
+    bucket         = "harisonixbucket1"
     key            = "terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
