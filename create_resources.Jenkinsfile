@@ -8,7 +8,7 @@ pipeline {
         TF_bucket = 'harisonixbucket1'
         TF_VAR_key_name = 'harikey'
         TF_VAR_instance_type = 't2.large'
-        GITHUB_REPO_URL = ''
+        GITHUB_REPO_URL = 'https://github.com/Harikrishna-111/Jenkins-Terraform-EC2-S3-Infrastucture1Q.git'
     }
 
     stages {
